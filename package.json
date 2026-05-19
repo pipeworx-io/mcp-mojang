@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-mojang",
+  "version": "0.1.0",
+  "description": "Minecraft profile lookups (UUID, profile, name history, blocked servers).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mojang"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-mojang"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
