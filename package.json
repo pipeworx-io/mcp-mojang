@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mojang",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mojang/Minecraft MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-88b0fea064930d080c8f9c856928f574f45f072855d7fe25e399e3c22f9c045d",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-9b935ce68705196b2216381d9d0990562b6f36a2574919075bb6e3760e6039d3",
+    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
   }
 }
