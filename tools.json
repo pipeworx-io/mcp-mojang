@@ -1,0 +1,73 @@
+[
+  {
+    "name": "username_to_uuid",
+    "description": "Resolve a Minecraft username to its current Mojang UUID; returns the canonical UUID string used to identify the account.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "username_to_uuid_at",
+    "description": "Resolve a Minecraft username to the UUID it was assigned at a given Unix epoch timestamp (seconds); useful for historical name lookups.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "profile",
+    "description": "Fetch a Minecraft player's public profile by UUID via Mojang Session Server; returns current username and skin/cape texture URLs.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "uuid"
+      ]
+    }
+  },
+  {
+    "name": "name_history",
+    "description": "Fetch the full name-change history for a Minecraft account by UUID; returns a list of past usernames and the timestamps when each was adopted.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "uuid"
+      ]
+    }
+  },
+  {
+    "name": "blocked_servers",
+    "description": "Retrieve Mojang's blocklist of banned Minecraft multiplayer servers as SHA-1 hashes; returns count and hashes array from the Session Server.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
