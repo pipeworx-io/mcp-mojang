@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/mojang",
   "title": "Mojang",
   "description": "Mojang/Minecraft MCP.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/mojang",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-mojang",

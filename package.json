@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mojang",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mojang/Minecraft MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "mojang",
     "gatewaySlug": "mojang",
-    "sourceHash": "v1-6321c55b2ac55ab293a97741308dff8d46348dcabf33db0b0623749e79e27355",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-f6910fcbfc2207314549cbf3126852fdcc015d913dc126d77dfb0abf9fab1e7a",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
